@@ -6,21 +6,26 @@
     
 
     
-    <title>about | 彭远春的技术专栏</title>
+    <title>钉钉报警 | 彭远春的技术专栏</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="Hello,pengyc">
-<meta property="og:type" content="website">
-<meta property="og:title" content="about">
-<meta property="og:url" content="http://boke.pengyc.com/about/index.html">
+    <meta name="keywords" content="python" />
+    
+    <meta name="description" content="参照钉钉官方文档：https:&#x2F;&#x2F;ding-doc.dingtalk.com&#x2F;doc#&#x2F;serverapi2&#x2F;qf2nxq 自定义机器人webhook的安全设置有三种方式，分为自定义关键字、加签、IP地址。关键字和IP地址两种方式不涉及webhook的生成，只有加签方式涉及。故脚本分别通过两种不同的方法来获取api_url和发送信息。代码如下所示： 12345678910111213141516">
+<meta property="og:type" content="article">
+<meta property="og:title" content="钉钉报警">
+<meta property="og:url" content="http://boke.pengyc.com/Language/python/%E9%92%89%E9%92%89%E6%8A%A5%E8%AD%A6">
 <meta property="og:site_name" content="彭远春的技术专栏">
-<meta property="og:description" content="Hello,pengyc">
+<meta property="og:description" content="参照钉钉官方文档：https:&#x2F;&#x2F;ding-doc.dingtalk.com&#x2F;doc#&#x2F;serverapi2&#x2F;qf2nxq 自定义机器人webhook的安全设置有三种方式，分为自定义关键字、加签、IP地址。关键字和IP地址两种方式不涉及webhook的生成，只有加签方式涉及。故脚本分别通过两种不同的方法来获取api_url和发送信息。代码如下所示： 12345678910111213141516">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-05-25T07:03:47.000Z">
-<meta property="article:modified_time" content="2020-05-25T07:07:22.372Z">
+<meta property="og:image" content="https://boke.pengyc.com/images/4.jpg">
+<meta property="article:published_time" content="2020-05-26T05:30:12.000Z">
+<meta property="article:modified_time" content="2020-05-26T06:57:04.892Z">
 <meta property="article:author" content="彭远春">
+<meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://boke.pengyc.com/images/4.jpg">
     
 
     
@@ -148,24 +153,48 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <em class="page-title-link" data-url="/about/index.html">about</em>
+    <a class="page-title-link" href="/categories/Language/">Language</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/Language/python/">python</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            <article id="page-" class="article article-single article-type-page" itemscope itemprop="blogPost">
+                            <article id="post-钉钉报警" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        about
+        钉钉报警
         </h1>
     
 
             </header>
         
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+      <i class="fa fa-calendar"></i>
+      <a href="/Language/python/%E9%92%89%E9%92%89%E6%8A%A5%E8%AD%A6" class="article-date">
+         <time datetime="2020-05-26T05:30:12.000Z" itemprop="datePublished">2020-05-26</time>
+      </a>
+    </div>
+
+
+                
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/python/" rel="tag">python</a>
+    </div>
+
+                
+
+                
+
+            </div>
         
         
         <div class="article-entry" itemprop="articleBody">
@@ -175,7 +204,10 @@
 
             
 
-            <p>Hello,pengyc</p>
+            <p><img src="https://boke.pengyc.com/images/4.jpg" alt=""></p>
+<p>参照钉钉官方文档：<a href="https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq" target="_blank" rel="noopener">https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq</a></p>
+<p>自定义机器人webhook的安全设置有三种方式，分为自定义关键字、加签、IP地址。关键字和IP地址两种方式不涉及webhook的生成，只有加签方式涉及。故脚本分别通过两种不同的方法来获取api_url和发送信息。代码如下所示：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/bin/env python</span></span><br><span class="line"><span class="comment"># coding=utf-8</span></span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> hmac</span><br><span class="line"><span class="keyword">import</span> hashlib</span><br><span class="line"><span class="keyword">import</span> base64</span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"></span><br><span class="line">timestamp=long(round(time.time() * <span class="number">1000</span>))</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_sign</span><span class="params">(secret)</span>:</span></span><br><span class="line">    secret_enc = bytes(secret).encode(<span class="string">'utf-8'</span>)</span><br><span class="line">    string_to_sign = <span class="string">'&#123;&#125;\n&#123;&#125;'</span>.format(timestamp, secret)</span><br><span class="line">    string_to_sign_enc = bytes(string_to_sign).encode(<span class="string">'utf-8'</span>)</span><br><span class="line">    hmac_code = hmac.new(secret_enc, string_to_sign_enc, digestmod=hashlib.sha256).digest()</span><br><span class="line">    sign = urllib.quote_plus(base64.b64encode(hmac_code))</span><br><span class="line">    <span class="keyword">return</span>  sign</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_api_url_withsecret</span><span class="params">(token,secret)</span>:</span></span><br><span class="line">    sign=get_sign(secret)</span><br><span class="line">    base_url=<span class="string">'https://oapi.dingtalk.com/robot/send?access_token='</span></span><br><span class="line">    <span class="keyword">return</span> base_url+token+<span class="string">'&amp;timestamp='</span>+str(timestamp)+<span class="string">'&amp;sign='</span>+sign</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_api_url</span><span class="params">(token)</span>:</span></span><br><span class="line">    base_url=<span class="string">'https://oapi.dingtalk.com/robot/send?access_token='</span></span><br><span class="line">    <span class="keyword">return</span> base_url+token</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">send_msg_withsecret</span><span class="params">(token,secret,text)</span>:</span></span><br><span class="line">    api_url=get_api_url_withsecret(token,secret)</span><br><span class="line">    headers = &#123;<span class="string">'Content-Type'</span>: <span class="string">'application/json;charset=utf-8'</span>&#125;</span><br><span class="line">    json_text = &#123;</span><br><span class="line">        <span class="string">"msgtype"</span>:<span class="string">"text"</span>,</span><br><span class="line">        <span class="string">"at"</span>: &#123;</span><br><span class="line">                <span class="comment">#"atMobiles": [],</span></span><br><span class="line">                <span class="string">"isAtAll"</span>: <span class="literal">True</span></span><br><span class="line">              &#125;,</span><br><span class="line">        <span class="string">"text"</span>: &#123;<span class="string">"content"</span>: text &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    requests.post(api_url, json.dumps(json_text), headers=headers).content</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">send_msg</span><span class="params">(token,text)</span>:</span></span><br><span class="line">    api_url=get_api_url(token)</span><br><span class="line">    headers = &#123;<span class="string">'Content-Type'</span>: <span class="string">'application/json;charset=utf-8'</span>&#125;</span><br><span class="line">    json_text = &#123;</span><br><span class="line">        <span class="string">"msgtype"</span>:<span class="string">"text"</span>,</span><br><span class="line">        <span class="string">"at"</span>: &#123;</span><br><span class="line">                <span class="comment">#"atMobiles": [],</span></span><br><span class="line">                <span class="string">"isAtAll"</span>: <span class="literal">True</span></span><br><span class="line">              &#125;,</span><br><span class="line">        <span class="string">"text"</span>: &#123;<span class="string">"content"</span>: text &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    requests.post(api_url, json.dumps(json_text), headers=headers).content</span><br></pre></td></tr></table></figure>
 
         </div>
         <footer class="article-footer">
@@ -183,7 +215,7 @@
 
 
 
-    <a data-url="http://boke.pengyc.com/about/index.html" data-id="ckanl26a300018ojghdl4esy6" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="http://boke.pengyc.com/Language/python/%E9%92%89%E9%92%89%E6%8A%A5%E8%AD%A6" data-id="ckanl26a500028ojg753e5dwm" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -253,17 +285,19 @@
             "@type": "Person",
             "name": "彭远春"
         },
-        "headline": "about",
-        "image": "http://boke.pengyc.com",
-        
-        
-        "datePublished": "2020-05-25",
-        "dateCreated": "2020-05-25",
-        "dateModified": "2020-05-25",
-        "url": "http://boke.pengyc.com/about/index.html",
-        "description": "Hello,pengyc
-",
-        "wordCount": 1
+        "headline": "钉钉报警",
+        "image": "http://boke.pengyc.comhttps://boke.pengyc.com/images/4.jpg",
+        "keywords": "python",
+        "genre": "Language python",
+        "datePublished": "2020-05-26",
+        "dateCreated": "2020-05-26",
+        "dateModified": "2020-05-26",
+        "url": "http://boke.pengyc.com/Language/python/钉钉报警",
+        "description": "
+参照钉钉官方文档：https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq
+自定义机器人webhook的安全设置有三种方式，分为自定义关键字、加签、IP地址。关键字和IP地址两种方式不涉及webhook的生成，只有加签方式涉及。故脚本分别通过两种不同的方法来获取api_url和发送信息。代码如下所示：
+12345678910111213141516",
+        "wordCount": 461
     }
 </script>
 
@@ -300,6 +334,23 @@
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/Language/python/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%8A%A5%E8%AD%A6" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            企业微信报警
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -422,7 +473,7 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'http://boke.pengyc.com/about/index.html';
+    var disqus_url = 'http://boke.pengyc.com/Language/python/%E9%92%89%E9%92%89%E6%8A%A5%E8%AD%A6';
     
     (function() {
     var dsq = document.createElement('script');

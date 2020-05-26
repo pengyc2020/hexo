@@ -6,27 +6,28 @@
     
 
     
-    <title>Hello World | 彭远春的技术专栏</title>
+    <title>企业微信报警 | 彭远春的技术专栏</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="python" />
     
-    <meta name="description" content="Hello World">
+    <meta name="description" content="python实现的通过企业微信发送zabbix报警信息，请通过企业微信创建应用，并记录相关CorpID、Secret、agentid,实现代码如下: 12345678910111213141516171819202122232425262728293031#!&#x2F;usr&#x2F;bin&#x2F;env python# coding&#x3D;utf-8#企业微信相关CorpID  &#x3D; &#39;XXXXXXXX&#39;Secret  &#x3D;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://blog.pengyc.com/2020/05/25/hello-world/index.html">
+<meta property="og:title" content="企业微信报警">
+<meta property="og:url" content="http://boke.pengyc.com/Language/python/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%8A%A5%E8%AD%A6">
 <meta property="og:site_name" content="彭远春的技术专栏">
-<meta property="og:description" content="Hello World">
+<meta property="og:description" content="python实现的通过企业微信发送zabbix报警信息，请通过企业微信创建应用，并记录相关CorpID、Secret、agentid,实现代码如下: 12345678910111213141516171819202122232425262728293031#!&#x2F;usr&#x2F;bin&#x2F;env python# coding&#x3D;utf-8#企业微信相关CorpID  &#x3D; &#39;XXXXXXXX&#39;Secret  &#x3D;">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-05-25T07:06:54.852Z">
-<meta property="article:modified_time" content="2020-05-25T07:06:54.850Z">
+<meta property="og:image" content="https://boke.pengyc.com/images/3.jpg">
+<meta property="article:published_time" content="2020-05-26T06:30:12.000Z">
+<meta property="article:modified_time" content="2020-05-26T06:56:24.290Z">
 <meta property="article:author" content="彭远春">
+<meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://boke.pengyc.com/images/3.jpg">
     
 
-    
-        <link rel="alternate" href="/" title="彭远春的技术专栏" type="application/atom+xml" />
     
 
     
@@ -91,7 +92,7 @@
                                     <a class="main-nav-list-link" href="/">主页</a>
                                 </li>
                             
-                                        
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Language/">Language</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Language/python/">python</a></li></ul></li></ul>
                                     
                                 <li class="main-nav-list-item" >
                                     <a class="main-nav-list-link" href="/about/index.html">关于</a>
@@ -152,19 +153,19 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    未分类
+    <a class="page-title-link" href="/categories/Language/">Language</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/Language/python/">python</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            <article id="post-hello-world" class="article article-single article-type-post" itemscope itemprop="blogPost">
+                            <article id="post-企业微信报警" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        Hello World
+        企业微信报警
         </h1>
     
 
@@ -175,8 +176,8 @@
                 
     <div class="article-date">
       <i class="fa fa-calendar"></i>
-      <a href="/2020/05/25/hello-world/" class="article-date">
-         <time datetime="2020-05-25T07:06:54.852Z" itemprop="datePublished">2020-05-25</time>
+      <a href="/Language/python/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%8A%A5%E8%AD%A6" class="article-date">
+         <time datetime="2020-05-26T06:30:12.000Z" itemprop="datePublished">2020-05-26</time>
       </a>
     </div>
 
@@ -184,6 +185,11 @@
                 
 
                 
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/python/" rel="tag">python</a>
+    </div>
+
                 
 
                 
@@ -198,7 +204,9 @@
 
             
 
-            <p>Hello World</p>
+            <p><img src="https://boke.pengyc.com/images/3.jpg" alt=""></p>
+<p>python实现的通过企业微信发送zabbix报警信息，请通过企业微信创建应用，并记录相关CorpID、Secret、agentid,实现代码如下:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br><span class="line"><span class="comment"># coding=utf-8</span></span><br><span class="line"><span class="comment">#企业微信相关</span></span><br><span class="line">CorpID  = <span class="string">'XXXXXXXX'</span></span><br><span class="line">Secret  = <span class="string">'XXXXXXXX'</span></span><br><span class="line">agentid = <span class="string">'XXXXXXXX'</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_api_url</span><span class="params">(CorpID, Secret)</span>:</span></span><br><span class="line">    token_url    = <span class="string">'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=%s&amp;corpsecret=%s'</span> % (CorpID, Secret)</span><br><span class="line">    send_baseurl = <span class="string">"https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token="</span></span><br><span class="line">    req          = urllib2.Request(token_url)</span><br><span class="line">    result       = urllib2.urlopen(req)</span><br><span class="line">    access_token = json.loads(result.read())</span><br><span class="line">    send_url     = send_baseurl+access_token[<span class="string">'access_token'</span>]</span><br><span class="line">    <span class="keyword">return</span> send_url</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">send_msg</span><span class="params">(CorpID,Secret,agentid,content)</span>:</span></span><br><span class="line">    url = get_api_url(CorpID, Secret)</span><br><span class="line">    values = &#123;</span><br><span class="line">               <span class="string">"touser"</span>  : <span class="string">'@all'</span>,</span><br><span class="line">               <span class="string">"toparty"</span> : <span class="string">'2'</span>,</span><br><span class="line">               <span class="string">"msgtype"</span> : <span class="string">"text"</span>,</span><br><span class="line">               <span class="string">"agentid"</span> : agentid,</span><br><span class="line">               <span class="string">"text"</span>    : &#123;</span><br><span class="line">                            <span class="string">"content"</span> : content</span><br><span class="line">                           &#125;,</span><br><span class="line">               <span class="string">"safe"</span>    :<span class="string">"0"</span></span><br><span class="line">             &#125;</span><br><span class="line">    send_data    = json.dumps(values)</span><br><span class="line">    send_request = urllib2.Request(url, send_data)</span><br><span class="line">    response     = json.loads(urllib2.urlopen(send_request).read())</span><br></pre></td></tr></table></figure>
 
         </div>
         <footer class="article-footer">
@@ -206,7 +214,7 @@
 
 
 
-    <a data-url="http://blog.pengyc.com/2020/05/25/hello-world/" data-id="ckamdn77700010yjg43gj9uta" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="http://boke.pengyc.com/Language/python/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%8A%A5%E8%AD%A6" data-id="ckanl269p00008ojg2e6e80l7" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -276,17 +284,18 @@
             "@type": "Person",
             "name": "彭远春"
         },
-        "headline": "Hello World",
-        "image": "http://blog.pengyc.com",
-        "keywords": "",
-        "genre": "",
-        "datePublished": "2020-05-25",
-        "dateCreated": "2020-05-25",
-        "dateModified": "2020-05-25",
-        "url": "http://blog.pengyc.com/2020/05/25/hello-world/",
-        "description": "Hello World
-",
-        "wordCount": 2
+        "headline": "企业微信报警",
+        "image": "http://boke.pengyc.comhttps://boke.pengyc.com/images/3.jpg",
+        "keywords": "python",
+        "genre": "Language python",
+        "datePublished": "2020-05-26",
+        "dateCreated": "2020-05-26",
+        "dateModified": "2020-05-26",
+        "url": "http://boke.pengyc.com/Language/python/企业微信报警",
+        "description": "
+python实现的通过企业微信发送zabbix报警信息，请通过企业微信创建应用，并记录相关CorpID、Secret、agentid,实现代码如下:
+12345678910111213141516171819202122232425262728293031#!/usr/bin/env python# coding=utf-8#企业微信相关CorpID  = 'XXXXXXXX'Secret  =",
+        "wordCount": 394
     }
 </script>
 
@@ -315,48 +324,8 @@
             
                 
                 <li>
-                    <a class="social-tooltip" title="twitter" href="/" target="_blank" rel="noopener">
-                        <i class="icon fa fa-twitter"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="facebook" href="/" target="_blank" rel="noopener">
-                        <i class="icon fa fa-facebook"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="stack-overflow" href="/" target="_blank" rel="noopener">
-                        <i class="icon fa fa-stack-overflow"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="noopener">
+                    <a class="social-tooltip" title="github" href="https://github.com/pengyc2020/hexo" target="_blank" rel="noopener">
                         <i class="icon fa fa-github"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="weibo" href="/" target="_blank" rel="noopener">
-                        <i class="icon fa fa-weibo"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="rss" href="/" target="_blank" rel="noopener">
-                        <i class="icon fa fa-rss"></i>
                     </a>
                 </li>
                 
@@ -365,12 +334,20 @@
     </div>
     
         
+<nav id="article-nav">
+    
+    
+        <a href="/Language/python/%E9%92%89%E9%92%89%E6%8A%A5%E8%AD%A6" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">钉钉报警</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
-            
-                
-
             
                 
     <div class="widget-wrap">
@@ -381,10 +358,10 @@
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2020/05/25/hello-world/" class="thumbnail">
+                            <a href="/Language/python/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%8A%A5%E8%AD%A6" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(https://boke.pengyc.com/images/3.jpg)" alt="企业微信报警" class="thumbnail-image"></span>
     
     
 </a>
@@ -392,9 +369,29 @@
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2020/05/25/hello-world/" class="title">Hello World</a></p>
-                            <p class="item-date"><time datetime="2020-05-25T07:06:54.852Z" itemprop="datePublished">2020-05-25</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/Language/">Language</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Language/python/">python</a></p>
+                            <p class="item-title"><a href="/Language/python/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%8A%A5%E8%AD%A6" class="title">企业微信报警</a></p>
+                            <p class="item-date"><time datetime="2020-05-26T06:30:12.000Z" itemprop="datePublished">2020-05-26</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/Language/python/%E9%92%89%E9%92%89%E6%8A%A5%E8%AD%A6" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://boke.pengyc.com/images/4.jpg)" alt="钉钉报警" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Language/">Language</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Language/python/">python</a></p>
+                            <p class="item-title"><a href="/Language/python/%E9%92%89%E9%92%89%E6%8A%A5%E8%AD%A6" class="title">钉钉报警</a></p>
+                            <p class="item-date"><time datetime="2020-05-26T05:30:12.000Z" itemprop="datePublished">2020-05-26</time></p>
                         </div>
                     </li>
                 
@@ -404,35 +401,30 @@
 
             
                 
-
-            
-                
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">归档</h3>
+        <h3 class="widget-title">分类</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">五月 2020</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/">Language</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/python/">python</a><span class="category-list-count">2</span></li></ul></li></ul>
         </div>
     </div>
 
 
             
                 
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">五月 2020</a><span class="archive-list-count">2</span></li></ul>
+        </div>
+    </div>
 
-            
-                
 
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">链接</h3>
+        <h3 class="widget-title">标签</h3>
         <div class="widget">
-            <ul>
-                
-                    <li>
-                        <a href="http://hexo.io" target="_blank" rel="noopener">Hexo</a>
-                    </li>
-                
-            </ul>
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/" rel="tag">python</a><span class="tag-list-count">2</span></li></ul>
         </div>
     </div>
 
@@ -475,7 +467,7 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'http://blog.pengyc.com/2020/05/25/hello-world/';
+    var disqus_url = 'http://boke.pengyc.com/Language/python/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%8A%A5%E8%AD%A6';
     
     (function() {
     var dsq = document.createElement('script');
